@@ -8,9 +8,9 @@ button.on("click", goaway);
 
 function goaway() {
 var input = $('.name').val();
-welcome.text(`Go away, ${input}!`);
-introduction.text('I said GO AWAY!');
-instructions.text('There is no quiz.');
-button.css('backgroundColor', 'red');
-button.text('You lose.');
+welcome.text(`Don't worry, ${input}.`);
+introduction.text('You are loved.');
+instructions.text('There is no quiz. I just wanted to remind you.');
+button.css('backgroundColor', 'lightblue');
+button.text(':)');
 }
